@@ -3,8 +3,10 @@ Vue.component('name-head', {
   template:
   `<thead>
     <tr>
-      <td @click="toggleIndex">Index</td>
-      <td @click="toggleName">Name</td>
+      <td @click="toggleIndex">Index
+        <i :class="indexSorted ? 'fas fa-sort-up' : 'fas fa-sort-down'"></i></td>
+      <td @click="toggleName">Name
+        <i :class="nameSorted ? 'fas fa-sort-up' : 'fas fa-sort-down'"></td>
       <td>Delete</td>
     </tr>
   </thead>`,
