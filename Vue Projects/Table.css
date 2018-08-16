@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://placeimg.com/800/600/nature);
+    background-size: cover;
+}
+
+#app {
+    max-width: 500px;
+    width: 50%;
+    text-align: center;
+    margin: 10% auto;
+}
+
+table {
+    width: 100%;
+    border: 2px solid #42b983;
+    border-radius: 3px;
+}
+
+thead td {
+    background: #42b983;
+    color: white;
+}
+
+tbody td {
+    background: #f9f9f9;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+#addName {
+    margin: 15px auto;
+    max-width: 400px;
+    display: flex;
+    border: 2px solid #42b983;
+}
+
+#addName input {
+    width: 70%;
+    padding: 10px 20px;
+}
+
+#addName button {
+    width: 30%;
+    color: white;
+    background: #42b983;
+}
