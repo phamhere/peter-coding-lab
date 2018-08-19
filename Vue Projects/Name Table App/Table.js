@@ -77,7 +77,7 @@ Vue.component('name-table', {
       </tbody>  
     </table>
     <div id="addName">
-      <input placeholder="Type in Name">
+      <input placeholder="Type in Name" v-on:keypress.enter="append">
       <button @click="append">Add to Table</button>
     </div>
   </div>`,
